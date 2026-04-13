@@ -1,0 +1,13 @@
+node_modules
+build
+dist
+target
+.cache
+.next
+.pi
+pi-extensions
+coverage
+*.log*
+*.tsbuildinfo
+.env*
+!.env.example
