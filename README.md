@@ -10,6 +10,17 @@ Load/unload Pi extensions dynamically during a running session.
 
 The goal is simple: let you bring an extension into the current Pi runtime without restarting Pi with `-e ...`, while keeping the load temporary and easy to undo.
 
+## When to use this
+
+Use `pi-runtime-extensions` when you want to:
+
+- quickly try a local extension during an active Pi session
+- toggle debugging or utility extensions on and off
+- load project-local tools without restarting Pi manually
+- explore extension workflows interactively
+
+If you want long-term, always-on project behavior, normal Pi extension discovery is still the better fit.
+
 ## What it does
 
 When you load an extension, this package:
@@ -144,14 +155,3 @@ bun run typecheck
 - This package is intentionally conservative about cleanup.
 - It treats managed runtime wrappers as ephemeral runtime state.
 - If you want permanent project extensions, put them in `.pi/extensions/` yourself instead of using `/ext:load`.
-
-## When to use this
-
-Use `pi-runtime-extensions` when you want to:
-
-- quickly try a local extension during an active Pi session
-- toggle debugging or utility extensions on and off
-- load project-local tools without restarting Pi manually
-- explore extension workflows interactively
-
-If you want long-term, always-on project behavior, normal Pi extension discovery is still the better fit.
