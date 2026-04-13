@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "sourcePath": "/home/arcka/code/pi-exts/pi-extensions/pi-wgw-footer/index.ts",
+      "enabled": true,
+      "runtimePath": "/home/arcka/code/pi-exts/.pi/runtime-extensions/pi-wgw-footer-00915826",
+      "loadedAt": "2026-04-13T02:46:52.580Z"
+    }
+  ]
+}

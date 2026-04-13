@@ -4,8 +4,7 @@ dist
 target
 .cache
 .next
-.pi
-pi-extensions
+.pi/agent-sessions
 coverage
 *.log*
 *.tsbuildinfo
