@@ -10,6 +10,16 @@ Load/unload Pi extensions dynamically during a running session.
 
 The goal is simple: let you bring an extension into the current Pi runtime without restarting Pi with `-e ...`, while keeping the load temporary and easy to undo.
 
+## Install
+
+```
+pi install npm:pi-runtime-extensions
+
+# or
+
+pi -e npm:pi-runtime-extensions
+```
+
 ## When to use this
 
 Use `pi-runtime-extensions` when you want to:

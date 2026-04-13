@@ -1,6 +1,6 @@
 {
   "name": "pi-runtime-extensions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Dynamically load/unload extensions at runtime (inside session) for Pi Coding Agent with /ext:load, /ext:list, and /ext:unload commands.",
   "license": "Apache-2.0",
   "type": "module",
